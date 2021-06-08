@@ -18,24 +18,23 @@
             <a class="nav-link" href="#">Sair</a>
           </nav>
         </div>
-        <div class="col-md-9 h-100 d-flex  justify-content-center align-items-center">
-            <nav class="navbar navbar-light bg-light fixed-top">
-              <a class="navbar-brand">
-                <img width="180" src="https://www.azi.com.br/wp-content/themes/az-tecnologia/images/logo_az.svg" alt="">
-              </a>
-            </nav>
-          <button id="bt-novo" type="button" class="btn btn-success btn-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg " viewBox="0 0 16 16">
+        <div class="col-md-9 h-100 d-flex  justify-content-center align-items-center"> 
+          <!-- <button id="bt-novo" type="button" class="btn btn-success btn-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor" class="bi bi-plus-lg " viewBox="0 0 16 16">
               <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/>
             </svg>
-              Novo</button>
+              Novo</button> -->
           <div class="col-md-10 rounded px-5 py-4 shadow bg-white text-left">
             <SignupForm />
           </div>
         </div>
       </div>
+        <!-- <p>©Copyright 2050 by nobody. All rights reversed.</p> -->
     </div>
+   
+
   </div>
+ 
 </template>
 
 <script>
@@ -59,7 +58,7 @@ export default {
 }
 
 .vue-bg {
-  background: #1E90FF;
+  background: #39F;
   position: relative;
 }
 
@@ -67,7 +66,6 @@ export default {
   font-family:Arial, Helvetica, sans-serif;
   color: whitesmoke;
   position: relative;
-  right: 14%;
 }
 
 .navbar{
@@ -77,26 +75,22 @@ export default {
 }
 
 #bt-novo{
- padding-right: 15px; 
+ padding-right: 50px; 
+ 
+
  position: relative;
- bottom: 25%;
- left: 4.5%;
+ bottom: 43%;
+ left: 0%;
 }
 
 .bi{
   color: aliceblue;
 }
 
-/* .form-inline{
-  padding-top: 10px;
-  margin-right: 5%;
-
-} */
-
-
 .col-md-10{
  position: relative;
- top: 10%;
+ 
+
 right: 4%;
 }
 
@@ -105,11 +99,9 @@ tr,th{
 }
 
 table{
-   max-height: 50vh;
+   max-height: 35vh;
+  
 }
 
- @media only screen and (max-width: 900px){
-        .navbar { display: none; }
-    }
 
 </style>
